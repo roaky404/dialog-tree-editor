@@ -38,18 +38,23 @@ Dialog Tree Editor представляет собой веб-плагин, по
 
 ```text
 dialog-tree-editor/
-├── src/
-│   ├── components/
-│   │   ├── Node.svelte
-│   │   ├── Link.svelte
-│   │   └── Canvas.svelte
-│   ├── lib/
-│   │   ├── store.js
-│   │   └── treeActions.js
-│   └── main.js
-├── public/
-├── README.md
-└── LICENSE
+│
+├── README.md          
+├── package.json
+├── vite.config.js
+├── index.html
+└── src/
+   ├── main.js
+   ├── App.svelte
+   ├── lib/
+   │   ├── store.js
+   │   ├── treeActions.js
+   │   └── utils.js
+   └── components/
+       ├── Canvas.svelte
+       ├── Node.svelte
+       ├── Link.svelte
+       └── NodeEditor.svelte
 ```
 
 ## Запуск проекта
