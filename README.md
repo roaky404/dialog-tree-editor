@@ -36,6 +36,7 @@ Dialog Tree Editor представляет собой веб-плагин, по
 
 ## Структура проекта
 
+```text
 dialog-tree-editor/
 ├── src/
 │   ├── components/
@@ -49,15 +50,18 @@ dialog-tree-editor/
 ├── public/
 ├── README.md
 └── LICENSE
+```
 
 ## Запуск проекта
 
+```text
 Клонировать репозиторий:
 git clone https://github.com/roaky404/dialog-tree-editor.git
 Установить зависимости:
 npm install
 Запустить проект:
 npm run dev
+```
 
 ## Назначение проекта
 
